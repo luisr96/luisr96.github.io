@@ -1,0 +1,71 @@
+ID,Client,Order,Street Address,City,State,Zip Code,Delivery Address,Notes,Latitude,Longitude,Accuracy Score,Accuracy Type,Number,Street,Unit Type,Unit Number,City,State,County,Zip,Country,Source
+1,fakename,Combo #3,,,,,Pickup,Red roses (small base) white Bubbe balloon happy mother's day,0,0,0,,,,,,,,,,,
+2,fakename,Combo #3,,,,,Pickup,"2 bases pequenas con flores rojas, 1 inicial M y Y, 1 mother day globo",0,0,0,,,,,,,,,,,
+3,fakename,Combo #7,fakeaddress, Miami Gardens,FL,33055,fakeaddress,with pancakes,25.949633,-80.280748,0.9,rooftop,fakeaddress,fakeaddress,,,Miami Gardens,FL,Miami-Dade County,33055,US,Miami
+4,fakename,Combo #4,fakeaddress, Hialeah,FL,33012,fakeaddress,to Jacquelin,25.867947,-80.30792,1,rooftop,fakeaddress,fakeaddress,Apt,5,Hialeah,FL,Miami-Dade County,33012,US,Miami2
+5,fakename,Combo #4,fakeaddress, Pembroke Pines,FL,33029,fakeaddress,to Magda,25.986615,-80.389558,0.6,range_interpolation,fakeaddress,fakeaddress,,,Miramar,FL,Broward County,33029,US,TIGER/Line® dataset from the US Census Bureau
+6,fakename,Balloons,fakeaddress, Miami,FL,33177,fakeaddress,Milca Niebla,25.619406,-80.427357,1,rooftop,fakeaddress,fakeaddress,,,Miami,FL,Miami-Dade County,33177,US,Miami2
+7,fakename,Combo #3,,,,,Pickup,pequena base negra rosas rojas,0,0,0,,,,,,,,,,,
+8,fakename,Multiple (see notes),fakeaddress, Homestead,FL,33035,fakeaddress,Combo #1 & #7. El combo #7 con sundwich y adicional una cajita de fresas con chocolate blanco,25.45588,-80.43948,1,rooftop,fakeaddress,fakeaddress,,,Homestead,FL,Miami-Dade County,33035,US,Statewide2
+9,fakename,Combo #5,fakeaddress, Miami Lakes,FL,33016,fakeaddress,"Black base o base blanca o rosado, Edmita",25.909754,-80.337282,0.87,rooftop,fakeaddress,fakeaddress,,,Miami Lakes,FL,Miami-Dade County,33016,US,Miami
+10,fakename,Combo #1,,,,,Pickup,,0,0,0,,,,,,,,,,,
+11,fakename,Multiple (see notes),,,,,Pickup,Combo #5 and #7. Combo #5 rosas grandes con champagne. Combo #7 Base pequena negra rosas rojas.,0,0,0,,,,,,,,,,,
+12,fakename,Combo #2,fakeaddress, Homestead,FL,33032,fakeaddress,,25.548208,-80.378468,1,rooftop,fakeaddress,fakeaddress,,,Homestead,FL,Miami-Dade County,33032,US,Miami2
+13,fakename,Combo #3,fakeaddress, Miami,FL,33175,fakeaddress,base blanca con rosas rosaditas. To Arisay.,25.73555,-80.385851,0.8,rooftop,fakeaddress,fakeaddress,,,Miami,FL,Miami-Dade County,33175,US,Miami2
+14,fakename,Combo #3,fakeaddress, Miami,FL,33183,fakeaddress,base blanca con rosas rosaditas. To Maritza,25.702964,-80.399806,0.8,rooftop,fakeaddress,fakeaddress,,,Miami,FL,Miami-Dade County,33183,US,Miami2
+15,fakename,Combo #5,fakeaddress, Hialeah,FL,33012,fakeaddress,Caja rosada grande con flores blancas. To Janelle Castillo.,25.875042,-80.310713,1,rooftop,fakeaddress,fakeaddress,,,Hialeah,FL,Miami-Dade County,33012,US,Miami2
+16,fakename,Combo #5,fakeaddress, Miami Lakes,FL,33016,fakeaddress,Caja rosada grande con flores blancas. To Adriana Espin.,25.899725,-80.337944,0.87,rooftop,fakeaddress,fakeaddress,Apt,2801,Miami Lakes,FL,Miami-Dade County,33016,US,Miami
+17,fakename,Combo #2,fakeaddress, Miami,FL,33142,fakeaddress,Combo #2. Arreglo frutal grande. 3 globos & tarjeta.,25.796535,-80.234819,1,rooftop,fakeaddress,fakeaddress,Apt,4A,Miami,FL,Miami-Dade County,33142,US,Miami2
+18,fakename,Combo #5,fakeaddress, Hialeah,FL,33013,fakeaddress,Base blanca grande con rosas rosadas,25.854878,-80.273396,1,rooftop,fakeaddress,fakeaddress,,,Hialeah,FL,Miami-Dade County,33013,US,Miami2
+19,fakename,Combo #3,fakeaddress, Hialeah,FL,33015,fakeaddress,Base pequena,25.933772,-80.327272,1,range_interpolation,fakeaddress,fakeaddress,Apt,200,Hialeah,FL,Miami-Dade County,33015,US,TIGER/Line® dataset from the US Census Bureau
+20,fakename,Combo #5,fakeaddress, Miami,FL,33165,fakeaddress,Base negra con bebida & tarjeta. 2 globos solamente. To Yanet Rodriguez,25.721073,-80.381112,0.8,rooftop,fakeaddress,fakeaddress,,,Miami,FL,Miami-Dade County,33165,US,Miami2
+21,fakename,Combo #5,fakeaddress, Miami,FL,33187,fakeaddress,Base negra con bebida & tarjeta. 2 globos solamente. To Cheylan Rodriguez,25.609076,-80.441792,1,rooftop,fakeaddress,fakeaddress,,,Miami,FL,Miami-Dade County,33187,US,Miami2
+22,fakename,Combo #3,fakeaddress, Hialeah,FL,33012,fakeaddress,Globo bouquet grande con base dorada. Combo #3 base pequena roja con rosas rojas,25.85633,-80.287508,1,rooftop,fakeaddress,fakeaddress,,,Hialeah,FL,Miami-Dade County,33012,US,Miami2
+23,fakename,Multiple (see notes),,,,,Pickup,1 combo #4 Arreglo Mediano (Negro) 2 combos #3,0,0,0,,,,,,,,,,,
+24,fakename,Combo #3,,,,,Pickup,Blanco. Arreglo floral pequeno.,0,0,0,,,,,,,,,,,
+25,fakename,Combo #5,,,,,Pickup,Base blanca flores rosadas,0,0,0,,,,,,,,,,,
+26,fakename,Combo #5,fakeaddress, Hialeah,FL,33016,fakeaddress,Con arreglo de globos,25.870162,-80.32716,1,rooftop,fakeaddress,fakeaddress,Apt,206,Hialeah,FL,Miami-Dade County,33016,US,Miami
+27,fakename,Combo #5 w/ champagne,fakeaddress, Miami,FL,33183,fakeaddress,"Base negra, rosas rojas, 4 globos & tarjeta.",25.71264,-80.432032,0.7,range_interpolation,fakeaddress,fakeaddress,Apt,12,Miami,FL,Miami-Dade County,33193,US,TIGER/Line® dataset from the US Census Bureau
+28,fakename,Combo #7,fakeaddress, Hialeah,FL,33014,fakeaddress,,25.887652,-80.318098,1,rooftop,fakeaddress,fakeaddress,,,Hialeah,FL,Miami-Dade County,33014,US,Miami2
+29,fakename,Combo #4,fakeaddress, Hialeah,FL,33015,fakeaddress,Base mediana rosado. To Viviana Puredes,25.929102,-80.304068,1,rooftop,fakeaddress,fakeaddress,,,Hialeah,FL,Miami-Dade County,33015,US,Miami2
+30,fakename,Combo #7,fakeaddress, Miami,FL,33134,fakeaddress,Combo #7 con arreglo de flores base rosada pequeno. To Zulma Torres,25.767088,-80.277471,1,rooftop,fakeaddress,fakeaddress,,,Coral Gables,FL,Miami-Dade County,33134,US,Miami2
+31,fakename,Combo #3,fakeaddress, Hialeah,FL,33016,fakeaddress,Base blanca pequena,25.882567,-80.331127,1,rooftop,fakeaddress,fakeaddress,,,Hialeah,FL,Miami-Dade County,33016,US,Miami
+32,fakename,Combo #4,fakeaddress, Miami,FL,33175,fakeaddress,1 arreglo. Globo letra T. Mensaje de Tarjeta. Air solution. To Tania Conde,25.720914,-80.407891,1,rooftop,fakeaddress,fakeaddress,,,Miami,FL,Miami-Dade County,33175,US,Miami2
+33,fakename,Combo #4,fakeaddress, Miami,FL,33183,fakeaddress,"Globo con la ""V""",25.700156,-80.417381,1,rooftop,fakeaddress,fakeaddress,,,Miami,FL,Miami-Dade County,33183,US,Miami2
+34,fakename,Combo #9,fakeaddress, Miramar,FL,33027,fakeaddress,Combo #9 con arreglo mediano de rosas,25.966784,-80.346919,1,rooftop,fakeaddress,fakeaddress,,,Miramar,FL,Broward County,33027,US,Loveland
+35,fakename,Combo #4,fakeaddress, Hollywood,FL,33024,fakeaddress,,26.014356,-80.222985,1,rooftop,fakeaddress,fakeaddress,,,Hollywood,FL,Broward County,33024,US,Loveland
+36,fakename,Combo #3,,,,,Pickup,"Base chica color rojo, roses rojas. Sabado de 9 a 10",0,0,0,,,,,,,,,,,
+37,fakename,Combo #4,fakeaddress, Hialeah,FL,33015,fakeaddress,Arreglo mediano negro con rosas rojas. Globo burbuja Happy mother's day.,25.9429,-80.339292,1,rooftop,fakeaddress,fakeaddress,Apt,203,Hialeah,FL,Miami-Dade County,33015,US,Miami
+38,fakename,Combo #9,,,,,Pickup,"Caja mediana, color blanca. Flores rojas. 3 globos, 1 tarjeta",0,0,0,,,,,,,,,,,
+39,fakename,Combo #7,fakeaddress, Miami,FL,33135,fakeaddress,To Maria Guillermina Fuentes,25.770551,-80.251593,1,rooftop,fakeaddress,fakeaddress,,,Miami,FL,Miami-Dade County,33135,US,Miami2
+40,fakename,Combo #4,fakeaddress, Miami,FL,33177,fakeaddress,Caja rosada con rosas rosadas. Un globo de happy mothers day de corazon,25.607788,-80.426484,1,rooftop,fakeaddress,fakeaddress,,,Miami,FL,Miami-Dade County,33177,US,Miami2
+41,fakename,Combo #4,,,,,Pickup,Arreglo mediano base blanca,0,0,0,,,,,,,,,,,
+42,fakename,Combo #5,fakeaddress, Miami,FL,33176,fakeaddress,Caja grande y rosas rojas,25.68771,-80.348785,1,range_interpolation,fakeaddress,fakeaddress,,,Miami,FL,Miami-Dade County,33176,US,TIGER/Line® dataset from the US Census Bureau
+43,fakename,Combo #4,,,,,Pickup,Base mediana blanco con rosas rojas,0,0,0,,,,,,,,,,,
+44,fakename,Combo #8,fakeaddress, Miami,FL,33165,fakeaddress,,25.724319,-80.354282,1,rooftop,fakeaddress,fakeaddress,,,Miami,FL,Miami-Dade County,33165,US,Miami2
+45,fakename,Combo #1,fakeaddress, Hialeah,FL,33014,fakeaddress,Arreglo de fruta peequena. 2 globos. To Yuleysi Perez,25.883883,-80.313973,1,rooftop,fakeaddress,fakeaddress,Apt,203,Hialeah,FL,Miami-Dade County,33014,US,Miami2
+46,fakename,Combo #3,,,,,Pickup,"Arreglo pequeno de flores rojas, base blanco. Globo burbuja. Happy Mother's Day",0,0,0,,,,,,,,,,,
+47,fakename,Combo #7,fakeaddress, Miami,FL,33177,fakeaddress,To Zaranay Santander,25.602578,-80.423699,1,rooftop,fakeaddress,fakeaddress,,,Miami,FL,Miami-Dade County,33177,US,Miami2
+48,fakename,Combo #4,,,,,Pickup,Arreglo mediano. 3:00pm,0,0,0,,,,,,,,,,,
+49,fakename,Combo #7,fakeaddress, Hialeah,FL,33018,fakeaddress,,25.937114,-80.320012,0.9,rooftop,fakeaddress,fakeaddress,,,Hialeah,FL,Miami-Dade County,33015,US,Miami
+50,fakename,Combo #3,fakeaddress, Hialeah,FL,33018,fakeaddress,,25.941636,-80.346143,1,rooftop,fakeaddress,fakeaddress,,,Hialeah,FL,Miami-Dade County,33018,US,Miami2
+51,fakename,Combo #7,fakeaddress, Miami Gardens,FL,33055,fakeaddress,,25.950523,-80.263303,1,rooftop,fakeaddress,fakeaddress,,,Miami Gardens,FL,Miami-Dade County,33055,US,Miami2
+52,fakename,Combo #3,fakeaddress, Miami,FL,33155,fakeaddress,"base blanca pequena, 2 globos. Despues de 1pm.",25.755625,-80.302871,0.9,rooftop,fakeaddress,fakeaddress,,,Miami,FL,Miami-Dade County,33155,US,Miami2
+53,fakename,Combo #4,fakeaddress, Miramar,FL,33027,fakeaddress,"Base blanca, rosas rojas. Globo burbuja, Happy M. day",25.988207,-80.315276,1,rooftop,fakeaddress,fakeaddress,,,Miramar,FL,Broward County,33027,US,Loveland
+54,fakename,Combo #3,fakeaddress, Miami,FL,33175,fakeaddress,"base lisa negra con rosas, 2 globos y mothers day, 1 estrella",25.736043,-80.393279,1,rooftop,fakeaddress,fakeaddress,,,Miami,FL,Miami-Dade County,33175,US,Miami2
+55,fakename,Combo #7,fakeaddress, Homestead,FL,33030,fakeaddress,,25.470714,-80.495811,1,rooftop,fakeaddress,fakeaddress,,,Homestead,FL,Miami-Dade County,33030,US,Miami2
+56,fakename,Combo #4,,,,,Pickup,Mediano,0,0,0,,,,,,,,,,,
+57,fakename,Combo #4,fakeaddress, Hiealeah,FL,33016,fakeaddress,Mediano. Despues de 1pm.,25.874353,-80.326662,1,rooftop,fakeaddress,fakeaddress,Apt,21103,Hialeah,FL,Miami-Dade County,33016,US,Miami
+58,fakename,Combo #5 w/ champagne,fakeaddress, Miami Lakes,FL,33014,fakeaddress,"base grande negra, con rosas rojas",25.902959,-80.301147,1,rooftop,fakeaddress,fakeaddress,,,Miami Lakes,FL,Miami-Dade County,33014,US,Miami
+59,fakename,Combo #4,fakeaddress, Miami Gardens,FL,33055,fakeaddress,"Base mediana blanca, rosas rojas",25.929776,-80.283216,0.8,range_interpolation,fakeaddress,fakeaddress,,,Opa Locka,FL,Miami-Dade County,33055,US,TIGER/Line® dataset from the US Census Bureau
+60,fakename,Combo #3,,,,,Pickup,Pequeno,0,0,0,,,,,,,,,,,
+61,fakename,Combo #9,fakeaddress, Miami,FL,33177,fakeaddress,,25.621769,-80.420698,0.8,rooftop,fakeaddress,fakeaddress,,,Miami,FL,Miami-Dade County,33177,US,Miami2
+62,fakename,Combo #5 w/ champagne,fakeaddress, Miami,FL,33186,fakeaddress,,25.674866,-80.431113,1,rooftop,fakeaddress,fakeaddress,,,Miami,FL,Miami-Dade County,33186,US,Miami2
+63,fakename,Combo #3,fakeaddress, Miami,FL,33193,fakeaddress,Base pequena negra,25.710372,-80.444236,1,rooftop,fakeaddress,fakeaddress,,,Miami,FL,Miami-Dade County,33193,US,Miami2
+64,fakename,Multiple (see notes),fakeaddress, Miami,FL,33182,fakeaddress,Combo #9 bandeja combo #8 bandeja,25.771166,-80.397552,1,rooftop,fakeaddress,fakeaddress,,,Miami,FL,Miami-Dade County,33182,US,Miami2
+65,fakename,Combo #7,,,,,Pickup,,0,0,0,,,,,,,,,,,
+66,fakename,Combo #5,fakeaddress, Hialeah,FL,33015,fakeaddress,"en caja rosa. Large arreglo de rosas, con champagne, 4 globos, y tarjeta",25.931565,-80.326758,1,rooftop,fakeaddress,fakeaddress,,,Hialeah,FL,Miami-Dade County,33015,US,Miami2
+67,fakename,Combo #4,fakeaddress, Hialeah,FL,33016,fakeaddress,"caja, arreglo mediano rosado con rosas rojas. To aymara",25.921676,-80.332595,0.8,rooftop,fakeaddress,fakeaddress,,,Miami Lakes,FL,Miami-Dade County,33016,US,Miami2
+68,fakename,Combo #4,,,,,Pickup,"Base roja mediana, tarjeta, rosas rojas. Viene a las 11",0,0,0,,,,,,,,,,,
+69,fakename,Combo #4,fakeaddress, North Miami,FL,33167,fakeaddress,"Base mediana blanca, rosas rojas",25.88901,-80.222271,1,rooftop,fakeaddress,fakeaddress,,,North Miami,FL,Miami-Dade County,33167,US,Miami2
+70,fakename,Combo #4,,,,,Pickup,Base negra mediana con rosas. 11am,0,0,0,,,,,,,,,,,
