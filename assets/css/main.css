@@ -2836,15 +2836,15 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #573005;
+				background-color: #0a090828;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #0f1316c2;
+				background-color: #0000003d;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #c50aeb33;
+				background-color: #516969dc;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
@@ -3962,6 +3962,8 @@ input, select, textarea {
 		
 			/* fill the container, preserving aspect ratio, and cropping to fit */
 			background-size: cover;
+
+			object-fit: cover;
 		
 			/* center the image vertically and horizontally */
 			background-position: top center;
@@ -3969,3 +3971,4 @@ input, select, textarea {
 			/* round the edges to a circle with border radius 1/2 container size */
 			border-radius: 50%;
 		}
+

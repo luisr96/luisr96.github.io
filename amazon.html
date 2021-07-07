@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Sentiment Analysis and Machine Learning on Amazon Reviews</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<a href="index.html" class="logo"><strong>Home</strong> </a>
+			<nav>
+				<a href="https://colab.research.google.com/drive/1OK6H-yA4fWuiNkAERAQ8JKbSwnbzgMsD" target="_blank">Code</a>
+			</nav>
+		</header>
+
+		<!-- Main -->
+		<div id="main" class="alt">
+
+			<!-- One -->
+			<section id="one">
+				<div class="inner">
+					<header class="major">
+						<h1>Sentiment Analysis and Machine Learning on Reviews</h1>
+					</header>
+					<p> Here I analyzed Amazon review data to get some practice with machine learning and natural language processing. 
+						I decided to focus specifically on Amazon's 
+						Musical Instruments section to save on computing resources since the whole dataset is huge.</p>
+					<p> The data comes from <a
+							href=https://nijianmo.github.io/amazon/index.html
+							target="_blank">https://nijianmo.github.io/amazon/index.html</a></p>
+					
+
+					<p><a href=https://colab.research.google.com/drive/1OK6H-yA4fWuiNkAERAQ8JKbSwnbzgMsD?usp=sharing
+						target="_blank">And this is the Jupyter/Colab notebook that I worked on.</a> </p> 
+
+					<h2>Preprocessing and Analytics</h2>
+
+					<p>Before anything, I cleaned up the data and did some basic bar charts to get an idea of the number of companies involved and 
+						the number of Musical Instruments subcategories.</p>
+						<p>Some key takeaways from this part: there's a lot of missing data (which gets
+							accounted for later). Some aspects of the data are also heavily skewed just because of how Amazon is: 50% of brands sell only one product. 
+							80% sell five products or less. 
+						</p>
+							
+							Because of that I only look at brands that sell 500 or more different products, and subcategories with 1000 or more items with that tag.
+						
+						</p>
+					
+					<div class="row">
+						<div class="col-6 col-12-small">
+								<span class="image fit"><img src="images/amazon_brands.png" alt="" /></span>
+						</div>
+						<div class="col-6 col-12-small">
+							<span class="image fit"><img src="images/amazon_categories.png" alt="" /></span>
+							</p>
+						</div>
+					</div>
+
+					<h2>Word Frequencies in Good and Bad Reviews</h2>
+
+					<p>The raw data comes like:</p>
+
+					<span class="image fit"><img src="images/df_before.png" alt="" /></span>
+
+					<p>After cleaning and taking what's necessary it turns into:</p>
+
+					<span class="image fit"><img src="images/df_after.png" alt="" /></span>
+
+					<p>I deleted unimportant columns, transformed ratings to replace 4 and 5 for positive and 1 and 2 for negative (deleting 3) 
+						and got subcategory by joining the review dataframe and the product dataframe through "asin", the product id.
+					</p>
+
+					<p>After removing characters that don't add value like punctuation, stopwords, and after splitting up negative
+						and positive reviews, we can get a better idea of what words help make something either positive or negative 
+					and what some of the motifs are by using the WordCloud module. </p>
+
+
+					<div class="row">
+						<div class="col-6 col-12-small">
+							<p> <center> <i>Negative reviews</i></center></p>
+								<span class="image fit"><img src="images/Negative reviews.png" alt="" /></span>
+
+						</div>
+						<div class="col-6 col-12-small">
+							<p> <center> <i>Positive reviews</i></center></p>
+							<span class="image fit"><img src="images/Positive reviews.png" alt="" /></span>
+
+						</div>
+					</div>
+
+<p>We see sound is the most mentioned thing in both. "Work(s)" and "quality" are also pretty big which makes sense. 
+
+	<p>I thought it'd be more useful to have the same thing but for specific categories—to see what makes, for example, a guitar good or not.
+		This is the output for negative hand percussion and positive synths, but the function works with either sentiment and any valid subcategory.
+	</p>
+
+	<div class="row">
+		<div class="col-6 col-12-small">
+				<span class="image fit"><img src="images/NegativeHand Percussion.png" alt="" /></span>
+		</div>
+		<div class="col-6 col-12-small">
+			<span class="image fit"><img src="images/PositiveSynthesizers.png" alt="" /></span>
+		</div>
+	</div>
+
+	<p>These are way more descriptive than the general ones. "Bell" shows up a lot on negative reviews for hand percussion; the bell is
+		something those sellers should look into fixing or improving. A synth's software and samples are a big talking point in positive reviews;  
+		regular solid updates and an emphasis on good out-of-box samples could be worthwhile investments. This could be a really useful tool to gauge public 
+		opinion on anything.
+	</p>
+
+	<p>I also wanted to see if top ranked products' descriptions had any patterns,  
+		specifically in their tone and their word count. I used VADERsentiment to analyze the tone and a basic word count
+		for word length. There didn't seem to be any patterns at all in the way highly ranked products were writing their 
+		product descriptions compared to lower ranks. Either way, it was worth exploring.
+	</p>
+
+	<h2>Machine Learning with NLTK</h2>
+
+	<p> I used NLTK's Naive Bayes classifer to train the data. These are the most informative words for classifying a review as positive or negative:
+	</p>
+
+	<span class="image fit"><img src="images/most_informative_features.png" alt="" /></span>
+
+	<p>Something like "trash" and "refund" are more indicative of a negative review than a positive one, while "exceeded" is the opposite.</p>
+		
+	<p>We can use the classifier to come up with predictions.</p>
+		
+
+
+	<span class="image fit"><img src="images/simulating_reviews.png" alt="" /></span>
+
+	<p>If the review is straightforward it has a decent chance of getting it right, like the first sentence. "Durable" has positive connotation, so it predicts positive.</p> 
+		
+		<p>In the second one, "not really" is probably what gives it away
+			as a negative review.</p>
+
+		<p> It becomes harder for the model to predict right when you give it a mix of both. In the third one, it sees the word
+		"great" and predicts it positive, but of course you and I can tell it's negative. </p>
+		
+		
+		<p></p>
+		The model struggles with 
+	reviews that had sarcasm and double negatives and things like that. Accounting for those nuances, and continuously training
+	and tweaking the model to get better accuracy, would definitely be major points moving forward.</p>
+		
+		
+
+
+
+
+<h2>References</h2>
+
+					<p></p>
+
+
+
+
+
+
+
+
+
+
+
+
+					<blockquote>
+						<p>Justifying recommendations using distantly-labeled reviews and fined-grained aspects</p>
+						<p>Jianmo Ni, Jiacheng Li, Julian McAuley</p>
+						<p>Empirical Methods in Natural Language Processing (EMNLP), 2019</p>
+					</blockquote>
+
+
+				</div>
+
+				
+			</section>
+
+		</div>
+
+
+
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<center>
+					<li><a href="https://github.com/luisr96/Amazon-Machine-Learning-on-Reviews/blob/main/Amazon_Sentiment_Analysis.ipynb" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://www.linkedin.com/in/luisramirez0309/" target="_blank" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+				</center>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Untitled</li>
+					<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
